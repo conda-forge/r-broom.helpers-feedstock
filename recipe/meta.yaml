@@ -1,4 +1,4 @@
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/broom.helpers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/broom.helpers/broom.helpers_{{ version }}.tar.gz
-  sha256: f2322c6c924778272b749f5d6eb4aec9138dae3874dd74b88d410d15fca392ef
+  sha256: bfb5d960367af1c4d04180345b65af4e3604345d4d6267af9445da72188c2a2c
 
 build:
   merge_build_host: true  # [win]
