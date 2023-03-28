@@ -1,11 +1,11 @@
-About r-broom.helpers
-=====================
+About r-broom.helpers-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-broom.helpers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://larmarange.github.io/broom.helpers/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-broom.helpers-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides suite of functions to work with regression model 'broom::tidy()' tibbles.  The suite includes functions to group regression model terms by variable, insert reference and header rows for categorical variables, add variable labels, and more.
 
