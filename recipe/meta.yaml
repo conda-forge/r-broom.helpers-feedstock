@@ -1,4 +1,4 @@
-{% set version = "1.20.0" %}
+{% set version = "1.21.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/broom.helpers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/broom.helpers/broom.helpers_{{ version }}.tar.gz
-  sha256: ca369958e652e6d06ee02988597b4887aa345cbaa23ed58cd5d0c27b70575503
+  sha256: 4afe0cc299df4f4eadd85780bc713cd05e45a3ca1c01e516526b72374c987fac
 
 build:
   number: 0
